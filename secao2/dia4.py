@@ -71,4 +71,20 @@ else:
 
 total_compra = valor_compra - desconto;
 print("Valor total da compra: R$ " , total_compra);
+
+# 4. Planejando um Passeio
+# Situação: Você quer fazer um passeio ao parque, mas depende do clima e do dia da
+# semana.
+# ● Se for fim de semana (sábado ou domingo) e não estiver chovendo, você vai ao
+# parque.
+# ● Caso contrário, fica em casa e assiste a um filme.
+
+dia_da_semana = "sábado";
+chovendo = False;
+
+if (dia_da_semana == "sábado" or dia_da_semana == "domingo") and not chovendo:
+    print("Vamos ao parque.");
+else:
+    print("Fica em casa e assiste a um filme.");
+
     
